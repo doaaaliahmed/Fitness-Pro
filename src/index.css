@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
-body {
+*{
   margin: 0;
   padding:0;
   box-sizing: border-box;
+}
+
+body {
+ 
  font-family: 'Public Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size:10px;
+  font-size:16px;
+  background: #141416;
+  color:white;
+}
+
+:root{
+  --dark-gray : #777E90;
+  --white: #FCFCFD;
+  --orange-color:#FF592C;
+  --light-blue:#3772FF;
+  --light-purple:#9757D7;
+  --light-pink:#EF466F;
+  --light-green:#45B26B;
 }
 

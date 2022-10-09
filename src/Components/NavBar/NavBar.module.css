@@ -1,16 +1,36 @@
-.nav{
-    padding:2rem ;
+.navBar{
+    background-color: transparent;
+    padding: 4%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    position: relative;
+    justify-content: space-between;
+    width:100%;
 
 }
 
-.navBtn{
+@media (min-width:1200px) {
+    .navBar{
+        padding: 2% 5%; 
+        justify-content: center;
+        gap:6rem;  
+    }
+
+    
+}
+
+
+.logo{
+    padding:25px 0;
+}
+
+.navListButton{
+    outline: none;
     border:none;
-    outline:none;
     background-color: transparent;
     cursor: pointer;
-   
+    width:fit-content;
+}
+
+.bookBtn{
+    width:fit-content;
 }

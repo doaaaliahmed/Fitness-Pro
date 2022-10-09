@@ -1,0 +1,43 @@
+.listSec{
+    width:80%;
+    max-width: 30rem;
+    margin-top:3rem;
+
+}
+.listItem{
+    margin-bottom:4rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.numList1 , .numList2 , .numList3{
+    padding:5px 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.numList1{
+   background-color: var(--light-purple);;
+}
+
+.numList2{
+    background-color: var(--light-pink);
+ }
+
+ .numList3{
+    background-color: var(--light-green);;
+ }
+
+.listTitle{
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+
+}
+
+.listPar{
+    color:var(--dark-gray);
+    font-size: 1.2rem;
+}

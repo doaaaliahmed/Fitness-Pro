@@ -1,0 +1,19 @@
+.newWorkoutsSection{
+    text-align: left;
+    padding:5rem 2rem;
+    min-height:100vh;
+    border-bottom: 1px solid var(--dark-gray);
+}
+
+.workoutsSectionSubTitle{
+    font-size: 1rem;
+    color:var(--dark-gray);
+    
+}
+
+@media (min-width:990px) {
+    .newWorkoutsSection{
+        text-align: center;
+        padding:8rem 3rem ;
+    }
+}

@@ -1,0 +1,60 @@
+.countSec{
+    padding:3rem 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap:2.5rem;
+}
+
+
+.workoutsListItem{
+    width:90%;
+   
+}
+
+@media (min-width:768px) {
+    .countSec{
+
+        justify-content: center;
+       
+    }
+
+    .workoutsListItem{
+        width:40%;
+      
+    }
+    
+}
+
+@media (min-width:1200px) {
+   
+
+    .workoutsListItem{
+        width:20%;
+       
+    }
+    
+}
+
+
+.workouts-img img{
+    margin-bottom:1.5rem;
+}
+
+.information{
+    width:100%;
+    border-top: 1px solid var(--dark-gray);
+    padding-top: 2rem ;
+}
+
+.subTitle{
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+}
+
+.description{
+    margin-top:1rem;
+    line-height: 30px;
+}

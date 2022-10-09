@@ -1,0 +1,19 @@
+.worksSec{
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .worksSec{
+        padding:5rem;
+        padding-bottom:10rem;
+       
+    }
+}
+
+
+.worksInfo{
+    margin: 20px auto;
+    font-size: 1.4rem;
+    max-width: 35rem;
+}

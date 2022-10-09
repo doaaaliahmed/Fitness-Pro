@@ -1,0 +1,92 @@
+.infoSec{
+    max-width: 35rem;
+}
+
+.imgSection{
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+    width:100%;
+    max-width: 50rem;
+ }
+
+
+ .images{
+    width:100%;
+   display: grid;
+   place-items: center;
+   position: relative;
+ }
+
+ .images img{
+    width:100%;
+ }
+
+ .mainImg{
+    position: relative;
+     width: 100%;
+   
+ }
+.bookBtn{
+    background-color: transparent;
+    border:2px solid  var(--dark-gray);
+}
+
+.bookBtn:hover{
+    border:2px solid  var(--white);
+    background-color: transparent;
+
+}
+
+.btnSec{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+ul{
+    margin:3rem 0;
+    padding:0;
+}
+
+.listItem{
+    color:var(--dark-gray);
+    margin:1rem 0;
+    font-size: 1.3rem;
+    font-weight:700;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+
+
+.apple , .greenball{
+    position: absolute;
+    z-index: 5;
+    width:20%;
+}
+
+.greenball{
+    top:20%;
+    left:50%;
+
+}
+
+.apple{
+    top:40%;
+    right:0;
+}
+
+
+@media (min-width:990px){
+    .btnSec{
+ 
+        flex-direction: row;       
+    } 
+    button{
+        width:50%;
+    }
+  
+} 

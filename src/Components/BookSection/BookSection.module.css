@@ -1,0 +1,100 @@
+.bookSec{
+    background: #23262F;
+}
+
+.imgSection{
+    margin-top:3rem;
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+    width:100%;
+    max-width: 55rem;
+  
+ }
+
+
+ .images{
+    width:100%;
+   display: grid;
+   place-items: center;
+   position: relative;
+  
+ 
+ }
+
+ .images img{
+    width:100%;
+ }
+
+.ballImg, .dumbellImg , .greenBallImg{
+    position:absolute;
+}
+
+.mainImg{
+    position: relative;
+    width: 100%;
+    z-index:5;
+}
+
+
+
+.greenBallImg{
+    left: 13%;
+    top: 50%;
+    width:18%;
+}
+
+.ballImg{
+    z-index: 5;
+    top: 7%;
+    right:5%;
+    width:35%;
+ 
+    
+} 
+
+.dumbellImg{
+    bottom: 5%;
+     right: 3%;
+     width:45%;
+}
+
+
+
+
+.bookSectionTitle{
+    background-color: #141416;
+    width:90%;
+    max-width: 45rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding:1rem;
+}
+
+@media (min-width:990px) {
+    .bookSectionTitle{
+        padding:2rem;
+    }
+    
+}
+
+.bookSectionSubTitle{
+    font-size: 2.5rem;
+
+}
+
+.bookSectionInfo{
+    color:var(--dark-gray);
+    font-size:1.1rem;
+}
+
+.bookDiscountSec{
+    font-size: 16px;
+    text-align: center;
+    margin:20px auto;
+    color:var(--dark-gray);
+}
+

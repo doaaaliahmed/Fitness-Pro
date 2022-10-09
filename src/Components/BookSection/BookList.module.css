@@ -1,0 +1,66 @@
+.bookSectionLists{
+    list-style: none;
+    width:90%;
+    padding:0;
+    
+}
+
+.bookList{
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    padding:2rem 5px;
+    border:1px solid transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top:1rem;
+    cursor: pointer;
+}
+
+.bookList:hover{
+    border:1px solid var(--dark-gray);
+}
+
+.bookInfoList {
+   
+    margin-left:1rem;
+
+}
+
+.bookInfoList h3{
+    font-size: 1.2rem;
+    margin-top:0;
+
+}
+
+.bookInfoList p{
+    margin-top:.5rem;
+    color: var(--dark-gray);
+    font-size: 1.2rem;
+
+}
+
+.bookImgList{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding:5px;
+}
+
+.user{
+    background-color: var(--light-green);
+}
+
+.medal{
+    background-color: var(--light-purple);
+}
+
+.lightning{
+    background-color: var(--light-blue);
+}
+

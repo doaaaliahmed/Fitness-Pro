@@ -1,0 +1,100 @@
+
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    list-style: none;
+   
+}
+
+.navContainer{
+    border-left:1px solid var(--dark-gray);
+    padding:0 3rem;
+}
+
+
+.navButtonContainer{
+    background-color: #141416;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: absolute;
+    width: 90%;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: 20px auto;
+    border-radius: 10px;
+    align-items: flex-start;
+    padding:10px 0;
+}
+
+
+.navList{
+    width:fit-content;
+    padding:25px;
+}
+
+.navLink , .classLink{
+    color: var(--dark-gray);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navList:hover .navLink , .classList:hover{  
+    color:var(--white);
+}
+
+.classList{
+    color: var(--dark-gray);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+
+.classContainer{
+   margin-top:2rem ;
+   list-style: none;
+}
+
+.classContainer .classLink{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+}
+
+.classLink:hover{
+    color:var(--white)
+}
+
+
+.classContainer li{
+    margin:2rem 0;
+}
+
+@media (min-width:1200px) {
+    .classList{
+        position: relative;
+      
+}
+
+    .classContainer{
+        background-color: #141416;
+        position: absolute;
+        margin-top: 2rem;
+        list-style: none;
+        width: 20rem;
+        padding: 10% ;
+        border-radius: 10px;
+        border: 1px solid var(--dark-gray);  
+        z-index:10;
+    }
+  
+}
