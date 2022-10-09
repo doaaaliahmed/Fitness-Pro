@@ -21,7 +21,8 @@
 }
 
 .par{
-    width:39rem;
+    width:fit-content;
+    max-width:35rem;
     margin:3rem auto;
 }
 
